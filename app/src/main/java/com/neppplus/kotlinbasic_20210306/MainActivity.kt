@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         toastBtn.setOnClickListener {
-            Toast.makeText(this, "토스트 띄우기 연습", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "토스트 띄우기", Toast.LENGTH_SHORT).show()
         }
 
         testBtn2.setOnClickListener {
